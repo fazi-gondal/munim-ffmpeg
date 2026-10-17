@@ -98,7 +98,13 @@ async function main() {
   ]) {
     await rm(path.join(root, target), { force: true, recursive: true })
   }
-  await run('tar', ['xzf', archive, '-C', root])
+  // Relative, forward-slash paths: GNU tar (Git for Windows) reads an absolute
+  // Windows path such as C:\... as a remote host:path archive.
+  await run(
+    'tar',
+    ['xzf', path.posix.join('.binaries-cache', manifest.archive), '-C', '.'],
+    { cwd: root }
+  )
   await rm(cache, { force: true, recursive: true })
 
   if (!(await alreadyInstalled())) {
