@@ -1,3 +1,9 @@
+## [0.9.2](https://github.com/munimtechnologies/munim-ffmpeg/compare/v0.9.1...v0.9.2) (2026-10-17)
+
+### 🐛 Bug Fixes
+
+* extract the FFmpeg binaries on Windows ([df675b0](https://github.com/munimtechnologies/munim-ffmpeg/commit/df675b0e9361a83354ca282d05201107bdb85b0f))
+
 ## [0.9.1](https://github.com/munimtechnologies/munim-ffmpeg/compare/v0.9.0...v0.9.1) (2026-10-17)
 
 ### 🐛 Bug Fixes
