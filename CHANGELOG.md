@@ -1,3 +1,13 @@
+## [0.9.0](https://github.com/munimtechnologies/munim-ffmpeg/compare/v0.8.1...v0.9.0) (2026-10-17)
+
+### ✨ Features
+
+* React Native 0.88, Nitro Modules 0.37.1 and Expo SDK 58 ([#15](https://github.com/munimtechnologies/munim-ffmpeg/issues/15)) ([17d197d](https://github.com/munimtechnologies/munim-ffmpeg/commit/17d197dc9568e5c96e09ebddd422632c0a3b2795))
+
+### 🐛 Bug Fixes
+
+* ignore cancel() for finished sessions and document cancel/state behaviour ([#14](https://github.com/munimtechnologies/munim-ffmpeg/issues/14)) ([8a2864c](https://github.com/munimtechnologies/munim-ffmpeg/commit/8a2864c4199beeba1398bdf602b3063a3db91dc3))
+
 ## [0.8.1](https://github.com/munimtechnologies/munim-ffmpeg/compare/v0.8.0...v0.8.1) (2026-10-03)
 
 ### 🐛 Bug Fixes
