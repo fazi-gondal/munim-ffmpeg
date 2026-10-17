@@ -1,3 +1,9 @@
+## [0.9.1](https://github.com/munimtechnologies/munim-ffmpeg/compare/v0.9.0...v0.9.1) (2026-10-17)
+
+### 🐛 Bug Fixes
+
+* accept react-native-nitro-modules 0.36.5 again ([445d6ee](https://github.com/munimtechnologies/munim-ffmpeg/commit/445d6ee1539719d637da16aa3f66edcc07b2fa0f)), closes [margelo/nitro#1573](https://github.com/margelo/nitro/issues/1573)
+
 ## [0.9.0](https://github.com/munimtechnologies/munim-ffmpeg/compare/v0.8.1...v0.9.0) (2026-10-17)
 
 ### ✨ Features
